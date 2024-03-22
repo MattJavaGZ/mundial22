@@ -5,5 +5,5 @@
               username="root"
               password="tajnehaslo"
               driverClassName="com.mysql.cj.jdbc.Driver"
-              url="jdbc:mysql://mysql:3306/mundial?serverTimezone=UTC"/>
+              url="jdbc:mysql://mysql:3306/mundial"/>
 </Context>

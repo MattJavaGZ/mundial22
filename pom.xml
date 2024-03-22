@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>matt.pas</groupId>
-    <artifactId>mundial</artifactId>
+    <artifactId>MundialWeb</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>MundialWeb</name>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
