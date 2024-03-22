@@ -1,0 +1,9 @@
+<Context>
+    <Resource name="jdbc/mundial"
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              type="javax.sql.DataSource"
+              username="root"
+              password="tajnehaslo"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://mysql:3306/mundial?serverTimezone=UTC"/>
+</Context>

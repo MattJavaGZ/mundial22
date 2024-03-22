@@ -1,0 +1,14 @@
+
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
+
+<div class="title">
+    <h1> <a href="${pageContext.request.contextPath}">Mundial</a> </h1>
+</div>
+
+<aside class="categories">
+    <ul>
+        <li><a href="${pageContext.request.contextPath}">Wszystkie mecze</a></li>
+        <li><a href="${pageContext.request.contextPath}/stats-form">Statystyki drużyny</a></li>
+        <li><a href="${pageContext.request.contextPath}/comparison-form">Porównanie drużyn</a></li>
+    </ul>
+</aside>

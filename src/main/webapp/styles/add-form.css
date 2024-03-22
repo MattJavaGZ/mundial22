@@ -1,0 +1,36 @@
+/* Ramka, marginesy, wyśrodkowanie i maksymalna szerokość */
+.add-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #BDBDBD;
+    justify-content: center;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+/* Rozmiar czcionki i marginesy między inputami */
+.add-form > * {
+    font-size: 1rem;
+    margin: 16px;
+}
+
+/* Obramowanie elementów formularza */
+.add-form > *:not(.add-form-title) {
+    padding: 20px;
+    border: 1px solid #BDBDBD;
+}
+
+/* Wyśrodkowanie tytułu formularza */
+.add-form-title {
+    margin: 16px auto;
+    font-size: large;
+    font-family: "Comic Sans MS";
+    color: #5856D6;
+
+}
+
+/* Zmiana koloru przycisku */
+.add-form-button {
+    color: white;
+    background-color: #007AFF;
+}
