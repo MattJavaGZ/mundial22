@@ -6,5 +6,5 @@ RUN mvn package
 
 FROM openjdk:21-slim-bookworm
 EXPOSE 8080
-COPY --from=MAVEN_BUILD /target/rest-offers-*.jar /app.jar
+COPY --from=MAVEN_BUILD /target/mundial-*.jar /app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
